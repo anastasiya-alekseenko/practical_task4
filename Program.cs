@@ -61,11 +61,9 @@
 // Задача 3: Напишите программу, которая перевернёт одномерный массив (первый элемент станет последним, второй – предпоследним и т.д.)
 // int[] array = {1, 5, 10, 20, 30, 40, 99, 4, 90, 3};
 // for (int i = 0; i < array.Length/2; i++)
-//             {
-//                 int tmp = array[i];
-//                 array[i] = array[array.Length - i - 1];
-//                 array[array.Length - i - 1] = tmp;
- 
-//             }
- 
-//             Console.WriteLine(string.Join(" ", array));
+// {
+// int tmp = array[i];
+// array[i] = array[array.Length - i - 1];
+// array[array.Length - i - 1] = tmp;
+// }
+// Console.WriteLine(string.Join(" ", array));
